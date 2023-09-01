@@ -5,6 +5,7 @@
 nota1 = float(input('digite a PRIMEIRA Nota.:'))
 nota2 = float(input('digite a SEGUNDA Nota.:'))
 nota3 = float(input('digite a TERCEIRA Nota.:'))
+
 media = (nota1 + nota2 + nota3)/3
 
 if media >= 4:
@@ -15,3 +16,20 @@ if media >= 4:
         print("Recuperação")
 else:
     print("reprovado")
+
+//
+
+# 3 notas e verifique se ele esta aprovado ou reprovado
+time1 = input('digite do time UM.:')
+gol1 = int(input('Numero de gols do TIME 1.:'))
+time2 = input('digite do time DOIS.:')
+gol2 = int(input('Numero de gols do TIME 2.:'))
+
+if gol1 != gol2 :
+    if gol1 > gol2:
+        print(time1, " Ganhou")
+
+    else:
+        print(time2, "Ganhou")
+else:
+    print("Empate!")
