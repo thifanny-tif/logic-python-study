@@ -13,3 +13,23 @@ if combustivel=="g" :
    print(litro * g)
 else:
     print(litro * e)
+
+-----
+
+#ler o número de litros vendidos e o tipo de combustivel
+# (codificado da seguinte forma: E-tanol, G-gasolina, caucule
+# e imprima o valor a ser pago pelo cliente
+# sabendo-se que o preço do litro da Gasolina é R$5,80 e do Etanol R$4,90.)
+
+combustivel= input('digite G-gasolina ou E-etanol.:')
+
+if combustivel=="g" :
+   litros = input("Quantidade de litros que você abasteceu.:")
+   valor = litro * 5.80
+elif tipo == "e":
+    litros input (
+    valor = litro * 4.90)
+else:
+
+
+#concliuir
