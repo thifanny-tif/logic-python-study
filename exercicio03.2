@@ -1,0 +1,17 @@
+# 3 notas e verifique se ele esta aprovado ou reprovado
+#altere o cod anterior e acrescente a opção de aluno em recuperação,
+#casosua média seja menor que 7 e maior que 4
+
+nota1 = float(input('digite a PRIMEIRA Nota.:'))
+nota2 = float(input('digite a SEGUNDA Nota.:'))
+nota3 = float(input('digite a TERCEIRA Nota.:'))
+media = (nota1 + nota2 + nota3)/3
+
+if media >= 4:
+    if media >= 7:
+        print("Aprovado")
+
+    else:
+        print("Recuperação")
+else:
+    print("reprovado")
