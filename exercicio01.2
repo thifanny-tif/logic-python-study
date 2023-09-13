@@ -1,0 +1,22 @@
+#dados os valores de horario abaixo, decifre a lógica e faça um codigo para executar
+# entrada 1: 3:15
+# entrada 2: 14:20
+# saída 6:05
+
+entrada1 = input("Digite o primeiro horário.: ")
+entrada2 = input("Digite o segundo horário.: ")
+entrada2 = input("Digite a saida.: ")
+
+h1, m1 = map(int, entrada1.split(":"))
+h2, m2 = map(int, entrada2.split(":"))
+
+totalH= h1 + h2
+totalM = m1 + m2
+
+if totalM >= 60:
+    totalH += totalM // 60
+    totalM = totalM % 60
+
+saida = f"{totalH}:{totalM:02}"
+
+print("saida:", saida)
